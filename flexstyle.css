@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    background-color: #f4f4f4;
+    height: 500px;
+    flex-direction: column;
+    /* always is on the main axis*/
+    /* justify-content: space-between; */
+    /* always on the cross axis*/
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    color: #fff;
+    background-color: #76a5eb;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.item:nth-of-type(2) {
+    flex-grow: 3;
+}
+
+.item:nth-of-type(2) {
+    flex-grow: 1;
+}
+
+.item:nth-of-type(2) {
+   flex-grow: 2;
+}
+
